@@ -64,6 +64,7 @@ int main(int ac, char **av)
 		if (op != NULL && *op != '#')
 		{
 			get_op(op, &head, line_num);
+			_pint(&head, line_num);
 		}
 	}
 	exit(EXIT_SUCCESS);
