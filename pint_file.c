@@ -8,22 +8,15 @@
  *      *
  *       * Return: nothing
  */
-
 void _pint(stack_t **stack, unsigned int line_num)
 {
-	stack_t *head;
-
-	head = *stack;
-
-	if (head == NULL)
+	if (stack == NULL || *stack == NULL)
 	{
-		fprintf(stderr,
-				"L%u: can't pint, stack empty\n",
-				line_num);
+		fprintf(stderr, "L%u: can't pint, stack empty\n", line_num);
 		exit(EXIT_FAILURE);
 	}
-	else
-	{
-		fprintf(stdout, "%d\n", head->n);
-	}
+
+	stack_t *head = *stack;
+
+	fprintf(stdout, "%d\n", head->n);
 }
