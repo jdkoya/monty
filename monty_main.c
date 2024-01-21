@@ -1,7 +1,7 @@
 #define _GNU_SOURCE
 #include "monty.h"
 
-var_t var;
+/*var_t var; */
 
 /**
  *  * close_monty_file - close monty file
@@ -30,6 +30,7 @@ void close_monty_file(int status, void *arg)
 
 int main(int ac, char **av)
 {
+	var_t var;
 	unsigned int line_num = 0;
 	stack_t *head = NULL;
 	FILE *fs = NULL;
