@@ -1,4 +1,4 @@
-#include "main.h"
+#include "monty.h"
 
 
 char *int_to_string(int number);
