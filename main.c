@@ -1,4 +1,4 @@
-#include "main.h"
+#include "monty.h"
 
 
 void execute(char *opcode, stack_t *stack, unsigned int line_number);
