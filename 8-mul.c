@@ -1,4 +1,4 @@
-#include "main.h"
+#include "monty.h"
 
 /**
  * mul -  This function multiplies  the top 2 elemnts in 2nd element and pop 1st
