@@ -1,4 +1,4 @@
-#include "main.h"
+#include "monty.h"
 
 /**
  * divide - This function divides the top 2nd elemnt over the 1st element and pop 1st
